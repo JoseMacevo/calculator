@@ -1,3 +1,17 @@
+"""Provide several sample math calcs.
+
+This module allows the user to make mathematicl calculations.
+
+The module contains teh following functions:
+
+- `add(a, b)` - Returns the sum of two numbers.
+- `subtract(a, b)` - Returns the difference of two numbers.
+- `multiply(a, b)` - Returns the product of two numbers.
+- `divide(a, b)` - Returns the quotient of two numbers.
+
+"""
+
+
 from typing import Union
 
 def add(a: Union[float, int], b: Union[float, int]) -> float:
